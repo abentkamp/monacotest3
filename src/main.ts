@@ -17,6 +17,10 @@ const run = async () => {
             text: 'print("Hello, World!")',
             uri: '/workspace/hello.py'
           }
+        },
+        editorOptions: {
+          tabSize: 2,
+          detectIndentation: false
         }
       }
     }
